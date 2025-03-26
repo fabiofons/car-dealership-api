@@ -21,6 +21,7 @@ export class CarsService {
       model: 'Cherokee',
     },
   ];
+
   findAllCars() {
     return this.cars;
   }
